@@ -44,7 +44,5 @@ DB_PASSWORD=greynia1130
 
 ### 測試
 利用 artisan 的指令進行測試(下php artisan serve指令可以啟動server)或者直接再xampp啟動測試
-=======
 
-#### 早安大家好!!!!!
 
