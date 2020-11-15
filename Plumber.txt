@@ -1,2 +1,5 @@
-test something 
-hahahahagit
+download xampp
+將Plumber的資料夾載在xampp/htdocs裡
+詳細設定我之後再上傳
+詳見README.md
+
