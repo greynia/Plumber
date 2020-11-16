@@ -1,3 +1,0 @@
-download xampp
-將Plumber的資料夾載在xampp/htdocs裡
-詳情請見Plumber資料夾中的README檔
