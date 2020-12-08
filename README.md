@@ -26,9 +26,10 @@ Include conf/extra/httpd-vhosts.conf
 ##</VirtualHost>
 #把Document更改成index.php存放的位置
 ```
-* 若遇到報錯情況的話可能是composer下載的版本問題，Plumber資料夾檔案路徑下打指令
+* 若遇到報錯情況的話可能是composer下載的版本問題以及套件未安裝完成，Plumber資料夾檔案路徑下打指令
 ```
 composer install
+composer update
 ```
 會自動下載相對應版本的framework
 
@@ -36,6 +37,12 @@ composer install
   在Plumber資料夾路徑下指令php artisan key:generate
   就會自動將加密的密鑰加到你複製的.env當中
   若要自行測試的話需要修改Plumber底下的.env
+
+*匯入初始資料庫
+```
+php artisan migrate
+php artisan session:table
+```
 
 ```java
 DB_CONNECTION=mysql
@@ -51,3 +58,9 @@ DB_PASSWORD=greynia1130
 
 ### 測試
 利用 artisan 的指令進行測試(下php artisan serve指令可以啟動server)或者直接再xampp啟動測試
+
+
+### 建資料庫表(版控，也可自行定義資料庫)
+database底下的migration下可進行定義
+需下指令php artisan make:migraton XXX(名稱)
+然後再下指令php artisan migrate去建置資料庫
