@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .error {
-  color: red;
+  color: #ff0000;
 }
 .form-control, .form-control:focus, .input-group-addon {
   border-color: #e1e1e1;
@@ -25,7 +25,7 @@ body {
   margin-bottom: 30px;
   text-align: center;
 }
-.signup-form form {		
+.signup-form form {
   border-radius: 1px;
   margin-bottom: 15px;
   background: #fff;
@@ -44,7 +44,7 @@ body {
   min-height: 38px;
   box-shadow: none !important;
   border-width: 0 0 1px 0;
-}	
+}
 .signup-form .input-group-addon {
   max-width: 42px;
   text-align: center;
@@ -52,7 +52,7 @@ body {
   border-width: 0 0 1px 0;
   padding-left: 5px;
 }
-.signup-form .btn {        
+.signup-form .btn {
   font-size: 16px;
   font-weight: bold;
   background: #19aa8d;
@@ -68,7 +68,7 @@ body {
 .signup-form a {
   color: #19aa8d;
   text-decoration: none;
-}	
+}
 .signup-form a:hover {
   text-decoration: underline;
 }
