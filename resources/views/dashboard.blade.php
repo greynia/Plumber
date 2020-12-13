@@ -70,7 +70,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user2-160x160 (3).jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                 {{ ucfirst(Auth()->user()->name) }}
@@ -86,7 +86,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user2-160x160 (3).jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                 {{ ucfirst(Auth()->user()->name) }}
@@ -102,7 +102,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user2-160x160 (3).jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                 {{ ucfirst(Auth()->user()->name) }}
@@ -158,7 +158,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
 {{--    <a href="#" class="brand-link">--}}
-{{--      <img src="dist/img/user2-160x160 (3).jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"--}}
+{{--      <img src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"--}}
 {{--           style="opacity: .8">--}}
 {{--      <span class="brand-text font-weight-light">Admin</span>--}}
 {{--    </a>--}}
@@ -168,7 +168,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160 (3).jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">{{ ucfirst(Auth()->user()->name) }}</a>
@@ -397,7 +397,7 @@
 {{--                      <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>--}}
 {{--                    </div>--}}
 {{--                    <!-- /.direct-chat-infos -->--}}
-{{--                    <img class="direct-chat-img" src="dist/img/user2-160x160 (3).jpg" alt="message user image">--}}
+{{--                    <img class="direct-chat-img" src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="message user image">--}}
 {{--                    <!-- /.direct-chat-img -->--}}
 {{--                    <div class="direct-chat-text">--}}
 {{--                      Is this template really for free? That's unbelievable!--}}
@@ -413,7 +413,7 @@
 {{--                      <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>--}}
 {{--                    </div>--}}
 {{--                    <!-- /.direct-chat-infos -->--}}
-{{--                    <img class="direct-chat-img" src="dist/img/user2-160x160 (3).jpg" alt="message user image">--}}
+{{--                    <img class="direct-chat-img" src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="message user image">--}}
 {{--                    <!-- /.direct-chat-img -->--}}
 {{--                    <div class="direct-chat-text">--}}
 {{--                      You better believe it!--}}
@@ -429,7 +429,7 @@
 {{--                      <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>--}}
 {{--                    </div>--}}
 {{--                    <!-- /.direct-chat-infos -->--}}
-{{--                    <img class="direct-chat-img" src="dist/img/user2-160x160 (3).jpg" alt="message user image">--}}
+{{--                    <img class="direct-chat-img" src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="message user image">--}}
 {{--                    <!-- /.direct-chat-img -->--}}
 {{--                    <div class="direct-chat-text">--}}
 {{--                      Working with AdminLTE on a great new app! Wanna join?--}}
@@ -445,7 +445,7 @@
 {{--                      <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>--}}
 {{--                    </div>--}}
 {{--                    <!-- /.direct-chat-infos -->--}}
-{{--                    <img class="direct-chat-img" src="dist/img/user2-160x160 (3).jpg" alt="message user image">--}}
+{{--                    <img class="direct-chat-img" src="dist/img/photos/photo_2020-12-14_01-16-23.jpg" alt="message user image">--}}
 {{--                    <!-- /.direct-chat-img -->--}}
 {{--                    <div class="direct-chat-text">--}}
 {{--                      I would love to.--}}
