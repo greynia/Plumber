@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::get('login', 'AuthController@index');
-Route::post('post-login', 'AuthController@postLogin');
-Route::get('registration', 'AuthController@registration');
-Route::post('post-registration', 'AuthController@postRegistration');
-Route::get('dashboard', 'AuthController@welcome');
-Route::get('logout', 'AuthController@logout');
+Route::get('login', 'AuthController@index')->name('login');
+Route::post('post-login', 'AuthController@postLogin')->name('post.login');
+Route::get('registration', 'AuthController@registration')->name('registration');
+Route::post('post-registration', 'AuthController@postRegistration')->name('post.registration');
+Route::get('dashboard', 'AuthController@welcome')->middleware('auth')->name('dashboard');
+Route::get('logout', 'AuthController@logout')->name('logout');

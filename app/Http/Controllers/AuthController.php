@@ -55,11 +55,7 @@ class AuthController extends Controller
 
     public function welcome()
     {
-
-      if(Auth::check()){
         return view('dashboard');
-      }
-       return Redirect::to("login")->withSuccess('Opps! You do not have access');
     }
 
 	public function create(array $data)
