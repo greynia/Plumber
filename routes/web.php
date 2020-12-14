@@ -21,3 +21,4 @@ Route::get('registration', 'AuthController@registration');
 Route::post('post-registration', 'AuthController@postRegistration');
 Route::get('dashboard', 'AuthController@welcome');
 Route::get('logout', 'AuthController@logout');
+
