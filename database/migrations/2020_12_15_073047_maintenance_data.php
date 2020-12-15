@@ -13,17 +13,21 @@ class MaintenanceData extends Migration
      */
     public function up()
     {
-        Schema::create('maintenance_workers', function (Blueprint $table) {
-            $table->Integer('d_id');
+        Schema::create('maintenance_data', function (Blueprint $table) {
+            $table->Integer('id');
             $table->Integer('u_id');
-            $table->String('id_card_number');
-            $table->string('name');
-            $table->string('email');
-            $table->string('password');
-            $table->string('address');
-            $table->string('occupation');
-            $table->string('phone');
-            $table->json('rate');
+            $table->Integer('p_id');
+            $table->String('type');
+            $table->String('u_phone');
+            $table->String('u_address');
+            $table->String('m_detail');
+            $table->dateTime('m_time');
+            $table->String('w_id');
+            $table->Integer('m_price');
+            $table->dateTime('m_start');
+            $table->dateTime('m_end');
+            $table->json('m_state');
+            $table->json('m_rate');
         });
     }
 
@@ -34,6 +38,6 @@ class MaintenanceData extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('maintenance_data');
     }
 }

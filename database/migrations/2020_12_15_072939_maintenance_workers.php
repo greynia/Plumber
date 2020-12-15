@@ -22,6 +22,7 @@ class MaintenanceWorkers extends Migration
             $table->string('address');
             $table->string('occupation');
             $table->string('phone');
+            $table->json('state');
             $table->json('rate');
         });
     }
@@ -33,6 +34,6 @@ class MaintenanceWorkers extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('failed_jobs');
+        Schema::dropIfExists('maintenance_workers');
     }
 }
