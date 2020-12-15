@@ -2,7 +2,11 @@
 <html>
 <head>
     <title>Registration Form</title>
-    
+
+    {{--change--}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    {{--change--}}
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -10,16 +14,33 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--Bootsrap 4 CDN-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --}}
 
     <link rel="stylesheet" type="text/css" href="{{url('style.css')}}">
-    
+
 </head>
 <body>
-    <div class="signup-form">	
+    {{--changechangechange--}}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">
+            <img src="dist/img/photos/tools.png" alt="logo" style="width:30px; margin: auto">
+        </a>
+        <a class="navbar-brand" href="login">Plumber</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href=".">首頁<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+{{--changechangechange--}}
+
+    <div class="signup-form">
         <form action="{{url('post-registration')}}" method="POST" id="regForm">
             {{ csrf_field() }}
             <h2>Register Account</h2>
@@ -31,7 +52,7 @@
 			    </div>
                 @if ($errors->has('name'))
                     <span class="error">{{ $errors->first('name') }}</span>
-                @endif 
+                @endif
             </div>
             <div class="form-group">
 			    <div class="input-group">
@@ -40,7 +61,7 @@
 			    </div>
                 @if ($errors->has('email'))
                     <span class="error">{{ $errors->first('email') }}</span>
-                @endif    
+                @endif
             </div>
 		    <div class="form-group">
 			    <div class="input-group">
@@ -49,8 +70,8 @@
 			    </div>
                 @if ($errors->has('password'))
                     <span class="error">{{ $errors->first('password') }}</span>
-                @endif  
-            </div>       
+                @endif
+            </div>
 		    <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
             </div>
