@@ -2,9 +2,6 @@
 <html>
 <head>
 <title>Login Form</title>
-{{--change--}}
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-{{--change--}}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,18 +9,19 @@
 <meta name="author" content="">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <!--Bootsrap 4 CDN-->
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-{{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--}}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<<<<<<< Updated upstream
 {{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --}}
+=======
+>>>>>>> Stashed changes
 
 <link rel="stylesheet" type="text/css" href="{{url('style.css')}}">
 
 </head>
 <body>
-{{--changechangechange--}}
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <a class="navbar-brand" href="#">
             <img src="dist/img/photos/tools.png" alt="logo" style="width:30px; margin: auto">
@@ -37,8 +35,6 @@
             </ul>
         </div>
     </nav>
-
-{{--changechangechange--}}
 
 <div margin-top="100px"></div>
     <div class="signup-form">
