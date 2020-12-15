@@ -21,3 +21,4 @@ Route::get('registration', 'AuthController@registration')->name('registration');
 Route::post('post-registration', 'AuthController@postRegistration')->name('post.registration');
 Route::get('dashboard', 'AuthController@welcome')->middleware('auth')->name('dashboard');
 Route::get('logout', 'AuthController@logout')->name('logout');
+
