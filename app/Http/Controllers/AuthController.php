@@ -22,6 +22,11 @@ class AuthController extends Controller
         return view('registration');
     }
 
+    public function LaravelPage()
+    {
+        return view('welcome');
+    }
+
     public function postLogin(Request $request)
     {
         request()->validate([

@@ -57,7 +57,7 @@
                 @endif
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block btn-lg">Login</button>
+                <button type="submit" name="login" class="btn btn-primary btn-block btn-lg">Login</button>
             </div>
             <p class="small text-center">By clicking the Sign Up button, you agree to our <br><a href="#">Terms &amp; Conditions</a>, and <a href="#">Privacy Policy</a>.</p>
         </form>
