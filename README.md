@@ -79,3 +79,11 @@ DB_PASSWORD=greynia1130
 > tests底下是放置一些單元測試等等
 >
 > Http底下的Controller是做動作控制等等，controller@(controller中的function)這樣的形態可以在route裡面做使用，詳情參見route/web.php
+
+### Selenium test
+```
+composer require --dev laravel/dusk
+php artisan dusk:install
+php artisan dusk:make XXX(可建立Selenium測試案例)
+php artisan dusk指令可跑測試
+```
